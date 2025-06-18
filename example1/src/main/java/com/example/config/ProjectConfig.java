@@ -34,7 +34,7 @@ public class ProjectConfig {
     * */
     @Bean
     String hello() {
-        return "Hello World";
+        return "Hello Adeesha";
     }
 
     @Bean
