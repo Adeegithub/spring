@@ -1,5 +1,10 @@
 package com.example.beans;
 
+/**
+ * This is a POJO class
+ * Plain Old Java Object
+ */
+
 public class Vehicle {
 
     private String name;

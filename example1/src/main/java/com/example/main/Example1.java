@@ -16,6 +16,8 @@ public class Example1 {
         var keyword in which it detects automatically the datatype of a variable
         based on the surrounding context.
         * */
+
+        //initializing the Spring Context
         var context = new AnnotationConfigApplicationContext(ProjectConfig.class);
 
         Vehicle veh = context.getBean(Vehicle.class);
